@@ -1,7 +1,7 @@
 [project]
 name = "fastapi-user-manager"
 version = "0.1.0"
-description = "Add your description here"
+description = "write something CRUDy"
 readme = "README.md"
 authors = [
     { name = "panko", email = "prike18@gmail.com" }
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-fastapi-user-manager = "fastapi_user_manager:main"
+fastapi-user-manager = "src.fastapi_user_manager:main"
 
 [build-system]
 requires = ["hatchling"]
