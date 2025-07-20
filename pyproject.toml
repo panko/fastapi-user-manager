@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-user-manager"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "panko", email = "prike18@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+]
+
+[project.scripts]
+fastapi-user-manager = "fastapi_user_manager:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
